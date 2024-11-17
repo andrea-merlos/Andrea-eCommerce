@@ -1,0 +1,76 @@
+{
+  "heels": [
+    {
+      "name": "Red Bow Holiday Heels",
+      "shoe-description": "Red Bow Velvet heels",
+      "shoe price": "$90",
+      "img": "images/bowRedHeels.webp"
+    },
+    {
+      "name": "Black Boot Heels",
+      "shoe-description": "Black knee lenght boot heels",
+      "shoe price": "$180",
+      "img": "images/blackBoots.jpg"
+    },
+    {
+      "name": "Bright Red Heels",
+      "shoe-description": "Red backless heels",
+      "shoe price": "$100",
+      "img": "images/closedRedHeel.avif"
+    },
+    {
+      "name": "Cherry  Red  Stap Heels",
+      "shoe-description": "Slingback sttiletto heels backless",
+      "shoe price": "$95",
+      "img": "images/redVelv.webp"
+    },
+    {
+      "name": "Black Backless Heels",
+      "shoe-description": "Black backless slingback",
+      "shoe price": "$80",
+      "img": "images/blackHeel.webp"
+    },
+    {
+      "name": "Holiday Boots",
+      "shoe-description": "Dark red leather knee hight boots",
+      "shoe price": "$150",
+      "img": "images/redBoots.webp"
+    },
+    {
+      "name": "Fresh Ruby Heels",
+      "shoe-description": "Sttiletto Pumps ultra-luxe leather and the pointed toe",
+      "shoe price": "$90",
+      "img": "images/goldheel.webp"
+    },
+    {
+      "name": "Cream Patent Heels",
+      "shoe-description": "Adjustable slingback pointy toe pumps",
+      "shoe price": "$85",
+      "img": "images/whiteHeel.webp"
+    },
+    {
+      "name": "Jessica Simpson",
+      "shoe-description": "Red pointed-toe pumps",
+      "shoe price": "$105",
+      "img": "images/redHeel6.webp"
+    },
+    {
+      "name": "Arezzo",
+      "shoe-description": "White stiletto heels leather",
+      "shoe price": "$50",
+      "img": "images/whiteHeel3.webp"
+    },
+    {
+      "name": "Journee Collection",
+      "shoe-description": "Brown ankle strap stiletto pumps",
+      "shoe price": "$47",
+      "img": "images/browHeel.webp"
+    },
+    {
+      "name": "Journee Collection",
+      "shoe-description": "Nude ankle strap stiletto pumps",
+      "shoe price": "$47",
+      "img": "images/nudeHeel.webp"
+    }
+  ]
+}
