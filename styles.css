@@ -260,6 +260,13 @@ body {
   color: black;
   transition: 0.3s ease-in-out;
 }
+#product1 h2 {
+  text-align: center;
+}
+#product1 p {
+  text-align: center;
+  font-size: 30px;
+}
 /************************************* banner section start ************************/
 #banner {
   display: flex;
