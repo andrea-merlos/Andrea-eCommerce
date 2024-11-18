@@ -18,8 +18,8 @@ fetch(`heels.json`)
       heelsCard.classList.add["heelsView"];
       const html = `
       <div class="heelImages"><img src="${picture}" class="pictures"</div>
-      <p>${name}</p>
-      <p>${discription}</p>
+      <p class="shoe-name">${name}</p>
+      <p class="discription">${discription}</p>
       <p class="shoe-cost">${price}</p>
       <div class="addCart"><button class="addToCart">Buy Now</button></div>`;
 
