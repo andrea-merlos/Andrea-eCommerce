@@ -207,7 +207,6 @@ body {
   border-radius: 4px;
   color: rgb(170, 15, 46);
   background-color: rgba(216, 209, 209, 0.898);
-  /* display: inline-block; */
   font-weight: bold;
 }
 
@@ -225,30 +224,52 @@ body {
 }
 
 /********************************** start of products  ********************************/
-.product {
+
+.pro {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 10px;
+  flex-direction: column;
   align-items: center;
-}
-.product img {
-  width: 65%;
-  height: 75%;
-  justify-content: space-between;
-  margin-bottom: 0.5rem;
-  padding: 19px 0px 16px 28px;
-  object-fit: contain;
-}
-.des {
   text-align: center;
-  padding-right: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+
+.product {
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.product img {
+  width: 270px;
+  height: 320px;
+  margin: 0 auto;
+  object-fit: cover;
+}
+.pro:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 15px rgb(105, 14, 28);
+}
+.des h5 {
+  text-align: center;
+  padding-right: 10px;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .buyBtn {
   background: linear-gradient(to right, rgb(216, 11, 11), rgb(85, 5, 5));
   color: aliceblue;
-  padding: 14px 20px 14px 25px;
+  /* padding: 14px 20px 14px 25px; */
+  padding: 10px 20px;
   border-radius: 3rem;
   cursor: pointer;
   font-weight: bold;
@@ -260,6 +281,7 @@ body {
   color: black;
   transition: 0.3s ease-in-out;
 }
+
 #product1 h2 {
   text-align: center;
 }
@@ -540,31 +562,38 @@ footer .copyright {
   cursor: pointer;
   padding: 20px;
 }
-.heelImages {
-  width: 50%;
-  height: 50%;
-}
 
 /*********************** Products Page ***************************/
 #heels-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
   gap: 16px;
+  box-shadow: ;
 }
+
+.heelsView {
+  text-align: center;
+}
+
 .heelImages {
   margin-bottom: 0.5rem;
   padding: 19px 0px 16px 28px;
   align-items: center;
+  margin-left: 200px;
+  width: 300px;
+  height: auto;
 }
 .addToCart {
   background: linear-gradient(to right, rgb(216, 11, 11), rgb(85, 5, 5));
   color: aliceblue;
-  padding: 10px 19px 3.7px 20px;
-  /* border-radius: 0.5rem; */
+  padding: 10px 22px 10px 25px;
+  border-radius: 0.5rem;
   cursor: pointer;
   font-weight: bold;
   font-size: 15px;
   border: none;
+  text-align: center;
 }
 .pictures {
   width: 100%;
@@ -663,19 +692,41 @@ footer .copyright {
   }
   #heels-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 6px;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    justify-items: center;
     align-items: center;
+    margin: 0;
   }
   .addToCart {
-    padding: 5px 10px 3.7px 10px;
-    font-size: 10px;
-    display: inline;
-    margin-top: 15px;
+    padding: 10px 20px;
+  }
+  .product {
+    margin: 0;
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+  h5,
+  h4,
+  .buybtn {
+    font-size: 14px;
+  }
+  .product img {
+    width: 180px;
+    height: auto;
+    margin-bottom: 0.5rem;
+  }
+
+  .des {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 65px;
   }
   .pictures {
-    width: 100%;
-    height: 40%;
+    width: 200px;
+    height: auto;
     display: inline;
   }
   .shoe-cost {
@@ -777,6 +828,7 @@ footer .copyright {
   .heelImages {
     width: 50%;
     height: 50%;
+    margin: 0;
   }
   #banner h4 {
     font-size: 20px;
