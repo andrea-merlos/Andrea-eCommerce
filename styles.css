@@ -569,7 +569,6 @@ footer .copyright {
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   gap: 16px;
-  box-shadow: ;
 }
 
 .heelsView {
@@ -578,9 +577,9 @@ footer .copyright {
 
 .heelImages {
   margin-bottom: 0.5rem;
-  padding: 19px 0px 16px 28px;
+  /*                                          fd g                                              bv` bcv                                                                                        f                                                                               ds                                                */
   align-items: center;
-  margin-left: 200px;
+  margin: 0 auto;
   width: 300px;
   height: auto;
 }
